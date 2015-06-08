@@ -6,5 +6,5 @@ jdk:
     - oraclejdk8
 	
 after_script:
-	- ls
-	- cp build/test-results/*.xml ./shippable/testresults
+    - ls
+    - cp build/test-results/*.xml ./shippable/testresults
