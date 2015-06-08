@@ -4,3 +4,7 @@ language: java
 # version numbers, testing against two versions of node
 jdk:
     - oraclejdk8
+	
+after_script:
+	- ls
+	- cp build/test-results/*.xml ./shippable/testresults
