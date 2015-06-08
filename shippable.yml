@@ -7,4 +7,7 @@ jdk:
 	
 after_script:
     - ls
+    - cp build/libs/* ./shippable/
     - cp build/test-results/*.xml ./shippable/testresults
+    - gradle cobertura
+    - cp build/reports/cobertura/*.xml ./shippable/codecoverage/

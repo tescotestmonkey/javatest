@@ -10,7 +10,7 @@ public class MainClassTest {
 	@Test
 	public void testDebutTestCaseMethod() {
 		
-		MainClass tester = new MainClass();
+		main.java.javatest.MainClass tester = new MainClass();
 		assertEquals(tester.DebutTestCaseMethod(), 0);
 	}
 
