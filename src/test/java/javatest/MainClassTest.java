@@ -1,6 +1,7 @@
-package javatest;
+package test.java.javatest;
 
 import static org.junit.Assert.*;
+import main.java.javatest.MainClass;
 
 import org.junit.Test;
 

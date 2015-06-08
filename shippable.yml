@@ -4,7 +4,3 @@ language: java
 # version numbers, testing against two versions of node
 jdk:
     - oraclejdk8
-	
-after_success:
-	- gradle test
-	

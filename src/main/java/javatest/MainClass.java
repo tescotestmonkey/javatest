@@ -1,4 +1,4 @@
-package javatest;
+package main.java.javatest;
 
 public class MainClass {
 
