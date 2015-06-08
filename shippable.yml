@@ -5,6 +5,10 @@ language: java
 jdk:
     - oraclejdk8
 	
+branches:
+  only:
+    - master
+
 after_script:
     - ls
     - cp build/libs/* ./shippable/
