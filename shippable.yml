@@ -11,3 +11,5 @@ after_script:
     - cp build/test-results/*.xml ./shippable/testresults
     - gradle cobertura
     - cp build/reports/cobertura/*.xml ./shippable/codecoverage/
+    - ls build/
+    - ls shippable
